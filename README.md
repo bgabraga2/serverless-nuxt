@@ -1,4 +1,4 @@
-# Serverless Nuxt Plugin
+# Serverless Nuxt Plugin..
 
 <p>
   <a href="https://github.com/wan2land/serverless-nuxt/actions?query=workflow%3A%22Node.js+CI%22"><img alt="Build" src="https://img.shields.io/github/workflow/status/wan2land/serverless-nuxt/Node.js%20CI?logo=github&style=flat-square" /></a>
@@ -197,10 +197,10 @@ custom:
     assetsCacheMaxAge:
 ```
 
-Name                 | Description | Default
----------------------| ----------- | ------- |
-version (required)   | version     |
-bucketName (required)| AWS S3 Bucket Name for static files
-cdnPath              | CDN Path    | `null` 
-assetsPath           |  | `".nuxt/dist/client"`
-assetsCacheMaxAge    | CacheControl MaxAge to use when uploading assets to S3. Using [ms](https://github.com/zeit/ms#examples). | `365d`
+| Name                  | Description                                                                                              | Default               |
+| --------------------- | -------------------------------------------------------------------------------------------------------- | --------------------- |
+| version (required)    | version                                                                                                  |
+| bucketName (required) | AWS S3 Bucket Name for static files                                                                      |
+| cdnPath               | CDN Path                                                                                                 | `null`                |
+| assetsPath            |                                                                                                          | `".nuxt/dist/client"` |
+| assetsCacheMaxAge     | CacheControl MaxAge to use when uploading assets to S3. Using [ms](https://github.com/zeit/ms#examples). | `365d`                |
